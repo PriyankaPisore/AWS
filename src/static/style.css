@@ -21,7 +21,7 @@
   }
   body .card #header {
     height: 5vw;
-    background: #000;
+    background: #6044cb;
     padding: 0vw;
   }
   body .card #header h1 {
@@ -62,7 +62,7 @@
   body .card #message-section #user {
     border: 1.5px solid #000;
     border-radius: 1.5vw 0vw 1.5vw 1.8vw;
-    background-color: #000;
+    background-color: #6044cb;
     float: right;
   }
   body .card #message-section #user #user-response {

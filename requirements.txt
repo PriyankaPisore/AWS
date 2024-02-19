@@ -29,3 +29,9 @@ validators
 pylint-flask
 pyOpenSSL
 keras
+transformers
+pandas
+tensorflow
+numpy
+matplotlib
+torch
