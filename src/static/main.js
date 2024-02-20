@@ -116,7 +116,14 @@ function output(input) {
     addChat(input, comparedText);
   }
   else {
-    call_to_ai(input, text);s
+    if(text.includes("s3") || text.includes("S3") || text.includes("bucket"))
+    {
+      call_to_ai(input, text); 
+    }
+    else{
+      addChat(input, "Sorry! I didn't get you. Please ask something relavent to S3");
+    }
+    
   }
 
 }
