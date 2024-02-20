@@ -123,9 +123,7 @@ function output(input) {
     else{
       addChat(input, "Sorry! I didn't get you. Please ask something relavent to S3");
     }
-    
   }
-
 }
 function call_to_ai(input, message) {
   

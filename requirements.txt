@@ -11,6 +11,7 @@ python-socketio
 six
 Werkzeug
 Click
+flask_cors
 Flask-WTF
 gevent
 gevent-websocket
@@ -35,3 +36,4 @@ tensorflow
 numpy
 matplotlib
 torch
+python-dotenv
