@@ -1,5 +1,5 @@
 
-# toly-learn-service
+# AWS Buddy
 
 For start this app use below commands
 
