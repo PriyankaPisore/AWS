@@ -1,18 +1,13 @@
-Resource Name,Type,Region,Number of objects ,Bill Per Month ,Public Access ,Versioning,Server access logging
-demo_1,S3,us-east-1,5772,$123.00,Disable ,Enable,Enable
-demo_2,S3,us-east-1,1345,$12.00,Enable,Disable ,Disable 
-demo_3,S3,us-west-1,22,$23.00,Disable ,Enable,Disable 
-demo_4,S3,us-west-1,277,$23.00,Enable,Disable ,Enable
-demo_5,S3,us-west-1,222459,$144.00,Disable ,Disable ,Disable 
-demo_6,S3,us-west-2,3221,$277.00,Disable ,Enable,Enable
-demo_7,S3,us-east-2,9,$4.00,Enable,Disable ,Disable 
-demo_8,S3,us-east-1,644,$157.00,Disable ,Enable,Enable
-demo_9,S3,us-east-1,123,"$3,579.00",Enable,Disable ,Disable 
-demo_10,S3,us-east-1,343,$356.00,Enable,Disable ,Enable
-demo_11,S3,us-east-2,56,$246.00,Disable ,Enable,Disable 
-demo_12,S3,us-east-2,78,"$322,222.00",Disable ,Disable ,Disable 
-demo_13,S3,us-east-1,9846474,$654.00,Enable,Enable,Enable
-log-cloudtrail,S3,us-west-1,38764,$333.00,Disable ,Disable ,Disable 
-cloudwatch-log,S3,us-west-2,38712,$214.00,Disable ,Enable,Enable
-demo-log,S3,us-east-2,333,"$45,200.00",Enable,Disable ,Disable 
-access-log,S3,us-east-1,44,"$2,763.00",Disable ,Enable,Enable
+S3 buckets,Region,Number of objects ,Bill Per Month ,Public Access ,Versioning,Server access logging
+photos-archive,us-east-1,2300,$15.67,Enable,Enable,Enable
+backups-2023,us-east-2,1200,$10.45,Enable,Enable,Disable
+project-objects,us-east-1,9800,$45.23,Enable,Enable,Enable
+marketing-docs,us-east-1,5500,$32.78,Disable,Disable,Enable
+user-data,us-west-2,750,$5.12,Enable,Enable,Enable
+logs-archive,us-west-2,3200,$22.15,Enable,Enable,Disable
+media-files,us-west-2,880,$7.90,Enable,Enable,Enable
+research-projects,us-east-1,4300,$18.56,Enable,Enable,Disable
+shared-documents,us-east-2,610,$4.78,Enable,Enable,Enable
+development-data,us-east-1,3100,$17.89,Enable,Enable,Enable
+customer-files,us-east-1,2000,$13.45,Disable,Disable,Disable
+test-environment,us-west-1,1400,$9.20,Enable,Enable,Enable

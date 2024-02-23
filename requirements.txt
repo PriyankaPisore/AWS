@@ -1,4 +1,5 @@
 Flask
+flask
 Flask-Login
 Flask-Session
 Flask_SocketIO
@@ -6,10 +7,10 @@ Flask-Cors
 itsdangerous
 Jinja2
 MarkupSafe
+werkzeug
 python-engineio
 python-socketio
 six
-Werkzeug
 Click
 flask_cors
 Flask-WTF
@@ -18,6 +19,8 @@ gevent-websocket
 greenlet
 gunicorn
 passlib
+pandasai 
+openai
 six
 WTForms
 aniso8601
@@ -36,4 +39,5 @@ tensorflow
 numpy
 matplotlib
 torch
+Flask-Caching
 python-dotenv
