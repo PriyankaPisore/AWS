@@ -41,3 +41,4 @@ matplotlib
 torch
 Flask-Caching
 python-dotenv
+pyngrok
