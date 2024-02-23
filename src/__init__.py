@@ -25,5 +25,5 @@ def create_app(test_config=None):
     # cache = Cache(app)
     # cache.clear()
     app.register_blueprint(chat)
-    
+    threading.Thread(target=app.run,kwargs={"use_reloader": False}).start()
     return app
