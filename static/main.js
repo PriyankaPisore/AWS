@@ -31,7 +31,8 @@ const userMessage = [
   ["you are funny"],
   ["i dont know"],
   ["boring"],
-  ["im tired"]
+  ["im tired"],
+  ["why you are so stupid?"]
 ];
 const botReply = [
   ["Hello!", "Hi!", "Hey!", "Hi there!"],
@@ -68,7 +69,8 @@ const botReply = [
   ["Glad to hear it"],
   ["Say something interesting"],
   ["Sorry for that. Let's chat!"],
-  ["Take some rest, Dude!"]
+  ["Take some rest, Dude!"],
+  ["Because you created me"]
 ];
 
 const alternative = [
@@ -121,7 +123,7 @@ function output(input) {
       call_to_ai(input, text); 
     }
     else{
-      addChat(input, "Sorry! I didn't get you. Please ask something relavent to S3");
+      addChat(input, "Sorry! I didn't get you. Please ask something relavent to AWS");
     }
   }
 }
@@ -146,7 +148,7 @@ function call_to_ai(input, message) {
       userDiv.remove();
       generated_output = response.answer
       if(response.answer==""){
-        generated_output = "I am not train for this type of question"
+        generated_output = "Unfortunately, I don't have access to that information at the moment. Is there anything else I can help you with?"
       }
       addChat(input, generated_output);
     },
