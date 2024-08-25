@@ -1,13 +1,7 @@
 
 # AWS Buddy
 
-For start this app use below commands
+AWS Buddy is a chatbot that can help to bring AWS infrastructure to your fingertip. 
 
-```shell
-python3 -m venv venv
-. venv/bin/activate
-pip3 install -r requirements.txt
-export FLASK_RUN_CERT=adhoc
-flask run
 
-```
+
