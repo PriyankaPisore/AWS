@@ -16,15 +16,18 @@ model_name = "google/tapas-large-finetuned-wtq"
 tokenizer = TapasTokenizer.from_pretrained(model_name)
 model = TapasForQuestionAnswering.from_pretrained(model_name, local_files_only=False)
 def apply_model(table, queries):
-    inputs = tokenizer(table=table, queries=queries, padding="max_length", return_tensors="pt")
-    outputs = model(**inputs)
-    predicted_answer_coordinates, predicted_aggregation_indices = tokenizer.convert_logits_to_predictions(inputs, outputs.logits.detach(), outputs.logits_aggregation.detach())
+
+    ######################
+    # inputs = tokenizer(table=table, queries=queries, padding="max_length", return_tensors="pt")
+    # outputs = model(**inputs)
+    # predicted_answer_coordinates, predicted_aggregation_indices = tokenizer.convert_logits_to_predictions(inputs, outputs.logits.detach(), outputs.logits_aggregation.detach())
 
     id2aggregation = {0: "NONE", 1: "SUM", 2: "AVERAGE", 3: "COUNT"}
     aggregation_predictions_string = [id2aggregation[x] for x in predicted_aggregation_indices]
 
     answers = []
 
+    ######################
     for coordinates in predicted_answer_coordinates:
         if len(coordinates) == 1:
             # only a single cell:
